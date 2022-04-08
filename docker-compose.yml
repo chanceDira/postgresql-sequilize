@@ -9,7 +9,7 @@ services:
     ports: 
       - "8005:8005"
     environment: 
-      - EXTERNAL_PORT=3001
+      - EXTERNAL_PORT=8005
       - PGDATABASE=tabnine_db
       - PGUSER=chance
       - PGPASSWORD=12345
